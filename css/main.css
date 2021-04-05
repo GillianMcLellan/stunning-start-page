@@ -60,7 +60,7 @@ nav a {
   background-color: #bd027d;
   border: 2px solid #960062;
   border-radius: 6px;
-  padding: .5em 8em;
+  padding: .5em .8em;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
@@ -86,7 +86,7 @@ h2 {
 }
 
 section {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   border-bottom: 2px solid #afafaf;
   border-top: 2px solid #afafaf;
 }
@@ -149,4 +149,16 @@ section div img {
 
 section div strong {
   font-weight: normal;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 0.875rem;
+  align-items: center;
+}
+
+footer a {
+  color: #000;
 }
